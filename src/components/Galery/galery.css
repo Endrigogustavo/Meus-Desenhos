@@ -6,7 +6,7 @@
 .container22 {
 	position: relative;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	gap: 1em;
 	width: 800px;
 	height: 500px;
@@ -32,25 +32,27 @@
 }
 
 .container22:has(.box-1:hover) {
-	grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .container22:has(.box-2:hover) {
-	grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
 }
 
 .container22:has(.box-3:hover) {
-	grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr;
 }
 
 .container22:has(.box-4:hover) {
-	grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr;
 }
 
 .container22:has(.box-5:hover) {
-	grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 3fr 1fr;
 }
-
+.container22:has(.box-6:hover) {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr;
+}
 .box:nth-child(odd) {
 	transform: translateY(-16px);
 }

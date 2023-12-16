@@ -1,6 +1,6 @@
 
 import './footer.scss'; // Certifique-se de ter um arquivo CSS com este nome
-
+import './respon.scss'
 function Footer() {
   return (
     <footer className="footer">

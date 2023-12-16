@@ -1,5 +1,7 @@
 
 import './Card.scss'
+
+import './respon.scss'
 import GenshinCaracter from './Img/Genshin/furina_render_full_by_taemuepuan_dga7vtn-PhotoRoom.png-PhotoRoom (1).png'
 import GenshinCard from './Img/Genshin/FfeceNZXkAE3BoW.jpeg'
 

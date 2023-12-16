@@ -1,0 +1,42 @@
+@media(max-width: 950px){
+    section {
+        width: 200%;
+        height: 300px;
+        padding: 100px 0;
+        position: relative;
+        margin-top: 500px;
+        margin-bottom: 1200px;
+    }
+    
+    section h2 {
+        margin: 0;
+        font-size: 3em;
+    }
+    
+    section.success {
+        color: #fff;
+    }
+    
+    /* seuarquivo.css */
+    .sobre  {
+       /* Adapte a fonte conforme necessário */
+        font-size: 29px;
+        line-height: 1.5;
+        color:#010d23; /* Escolha a cor de texto desejada */
+        /* Adicione mais estilos conforme necessário */
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+    
+      h2{
+         /* Adapte a fonte conforme necessário */
+        font-size: 25px;
+        line-height: 1.5;
+        color:#010d23;
+      }
+      
+      .margem{
+        margin-left: 10px;
+      }
+
+}

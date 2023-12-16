@@ -1,5 +1,7 @@
 
 import './navbar.css'
+import './responsividade.css'
+
 import { Link } from 'react-router-dom';
 
 function Menu() {
