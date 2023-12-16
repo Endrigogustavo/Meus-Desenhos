@@ -52,7 +52,7 @@ const Menu = () => {
 
 <div className="center-center">
  
-  <Link className="btn-glitch-fill" to="/desenhos">
+  <Link className="btn-glitch-fill" to="/desenhos-antigos">
     <span className="text">/ Initialize</span><span className="text-decoration">_</span><span className="decoration">&rArr;</span>
     </Link>
 </div>

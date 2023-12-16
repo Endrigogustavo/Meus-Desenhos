@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "caption": "Icon 1",
+        "Icon": "Desenhos/Café/365820974_842550974010381_8617768412000152708_n.webp",
+        "color": "blue",
+        "isVisible": true,
+        "likeBy": ["User 1", "User2"],
+        "detils": [
+            {
+                "width":"150px",
+                "height": "150px"
+            }
+        ]
+    },
+
+    {
+        "id":2,
+        "caption": "Icon 2",
+        "Icon": "images/HuTao_Gdr_day.png",
+        "color": "green",
+        "isVisible": true,
+        "likeBy": ["User 4", "User5"],
+        "detils": [
+            {
+                "width":"160px",
+                "height": "160px"
+            }
+        ]
+    },
+
+    {
+        "id":3,
+        "caption": "Icon 3",
+        "Icon": "images/Kokomi_Gorou_4k.png",
+        "color": null,
+        "isVisible": true,
+        "likeBy": ["User 6", "User7"],
+        "detils": [
+            {
+                "width":"170px",
+                "height": "170px"
+            }
+        ]
+    }
+]
