@@ -1,4 +1,4 @@
-@media(max-width: 950px){
+@media(max-width: 450px){
     @import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
 
 
@@ -9,8 +9,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         gap: 1em;
-        width: 200%;
-        height: 600px;
+        width: 90%;
+        height: 400px;
         transition: all 400ms;
     }
     

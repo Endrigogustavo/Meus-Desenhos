@@ -1,4 +1,4 @@
-@media(max-width: 950px){
+@media(max-width: 450px){
     
 // ## Default
 $hero-color: #FFF;
@@ -15,8 +15,8 @@ $hero-bg-mix: rgba(#29042f, 0.4); // hide with false
 
   place-items: center;
   overflow-x: hidden;
-  width: 200%;
-  height: 200vh;
+  width: 100%;
+  height: 100vh;
  
   animation: clip-hero-anim 1.25s cubic-bezier(0.29, 0.8, 0.8, 0.98);
   will-change: clip-path;
@@ -164,10 +164,11 @@ $hero-bg-mix: rgba(#29042f, 0.4); // hide with false
   
   @media (max-width: 700px) {
     .hero h1 {
-      font-size: 120px;
+    margin-top:0px;
+      font-size: 40px;
     }
     .p{
-        font-size: 40px !important;
+        font-size: 20px !important;
     }
   
     .nav .container {
@@ -181,18 +182,18 @@ $hero-bg-mix: rgba(#29042f, 0.4); // hide with false
   }
   
   .girl {
-    width: 120%;
+    width: 110%;
     height: auto;
-    margin-top: 890px;
+    margin-top: 500px;
     z-index: -1;
     position: absolute;
 }
 
 .grup1 {
-    width: 157px;
-    height: 1223px;
+    width: 87px;
+    height: 623px;
     left: 0px;
-    top: 50px;
+    top: 100px;
     position: absolute;
     z-index: 2; /* Increase z-index to make it appear above the "girl" */
 }
@@ -203,9 +204,9 @@ $hero-bg-mix: rgba(#29042f, 0.4); // hide with false
 }
 
 .japan2 {
-    width: 611px;
-    height: 344px;
-    top: 385px;
+    width: 321px;
+    height: 184px;
+    top: 205px;
     left: 0px;
     position: absolute;
     z-index: 4; /* Increase z-index to make it appear above the "girl" */
@@ -217,9 +218,9 @@ $hero-bg-mix: rgba(#29042f, 0.4); // hide with false
 
 .japan3 {
     
-    width: 646px;
-    height: 557px;
-    top: 50px;
+    width: 346px;
+    height: 257px;
+    top: 0px;
     right: 0px;
     position: absolute;
     z-index: 6; /* Increase z-index to make it appear above the "girl" */
@@ -236,13 +237,13 @@ $hero-bg-mix: rgba(#29042f, 0.4); // hide with false
   height: 200px;
   background: linear-gradient(180deg, transparent 0%, #181A20 60%);
   position: absolute;
-  margin-top: 600px;
+  margin-top: 200px;
 }
 
 .center-center {
     position: absolute;
-    left: 100%;
-    top: 150%;
+    left: 50%;
+    top: 70%;
     transform: translate(-50%);
     
   }
@@ -251,12 +252,12 @@ $hero-bg-mix: rgba(#29042f, 0.4); // hide with false
 [class*="btn-glitch-"] {
     display: inline-block;
     font-family: "VT323", monospace;
-    font-size: 60px;
-    border: 5px solid #03223f;
+    font-size: 30px;
+    border: 3px solid #03223f;
     color: #03223f;
     padding: 10px 13px;
-    width: 450px;
-    line-height: 1.5em;
+    width: 250px;
+    line-height: 0.7em;
     white-space: no-wrap;
     text-transform: uppercase;
     cursor: pointer;

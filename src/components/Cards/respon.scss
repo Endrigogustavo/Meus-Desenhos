@@ -1,14 +1,15 @@
-@media(max-width: 950px){
+@media(max-width: 450px){
   .card {
-    width: 130%;
-    height: 1000px;
+    width: 80%;
+    height: 600px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 36px;
     perspective: 2500px;
-    margin: 0 40%;
+    margin-top: -700px;
+    margin: 0 10%;
   }
   
   .cover-image {

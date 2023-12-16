@@ -17,7 +17,7 @@ function Cards() {
 
   return (
     <>
-<br />
+
     <center><h1>Principais</h1>
     <hr className="star-primary"></hr>
 
