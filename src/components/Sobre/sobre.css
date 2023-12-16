@@ -1,0 +1,35 @@
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+section.success {
+    color: #fff;
+    background: #EAECF8;
+}
+
+/* seuarquivo.css */
+.sobre  {
+   /* Adapte a fonte conforme necessário */
+    font-size: 19px;
+    line-height: 1.5;
+    color:#010d23; /* Escolha a cor de texto desejada */
+    /* Adicione mais estilos conforme necessário */
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  h2{
+     /* Adapte a fonte conforme necessário */
+    font-size: 25px;
+    line-height: 1.5;
+    color:#010d23;
+  }
+  
+  .margem{
+    margin-left: 10px;
+  }

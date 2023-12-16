@@ -1,0 +1,256 @@
+
+// ## Default
+$hero-color: #FFF;
+$hero-height: 100vh;
+$hero-width: 100vw;
+$hero-bg-mix: rgba(#29042f, 0.4); // hide with false
+
+.hero {
+  display: grid;
+  position: relative;
+  grid-template-columns: $hero-width;
+  grid-template-rows: $hero-height;
+  background-color: #EAECF8;
+  place-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+ 
+  animation: clip-hero-anim 1.25s cubic-bezier(0.29, 0.8, 0.8, 0.98);
+  will-change: clip-path;
+  z-index: -2;
+  overflow: hidden;
+  &__bg,
+  &__cnt {
+    align-self: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  // Images
+  &__bg {
+    z-index: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    animation: fade-in 0.75s linear;
+    will-change: opacity;
+
+    // Smoothing background gradient
+    @if ($hero-bg-mix) {
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 5;
+    
+        right: -10%;
+        bottom: -10%;
+        left: -10%;
+        background: $hero-bg-mix;
+        background-blend-mode: screen;
+      }
+    }
+
+    & picture {
+      display: inline;
+      height: 10vh;
+      width: 180vh;
+      animation: scaling-hero-anim 4s 0.25s cubic-bezier(0, 0.71, 0.4, 0.97)
+        forwards;
+      will-change: transform;
+      
+    }
+
+
+  }
+
+  &__cnt {
+    display: grid;
+    position: relative;
+    place-items: center;
+    z-index: 10;
+    color: $hero-color;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: fade-in 0.75s 1.5s linear forwards;
+    
+    & svg {
+      height: 12vw;
+      & path {
+        fill: #FFF;
+      }
+    }
+    
+    & h1 {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ## Animation
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes scaling-hero-anim {
+  from {
+    transform: scale(1.25);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes clip-hero-anim {
+  from {
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+
+  }
+  
+
+  
+  h1 {
+    font-size: 46px;
+    margin: 20px 0 20px;
+    font-weight: 700;
+    color: #010d23;
+    
+  }
+  
+  .hero .p {
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+    color: #010d23;
+  }
+  
+  .content h2 {
+    font-size: 150%;
+    margin: 20px 0;
+    text-transform: uppercase;
+  }
+  
+  .content .p {
+    color: #555;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 700px) {
+    .hero h1 {
+      font-size: 30px;
+    }
+  
+    .nav .container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nav .logo {
+      display: none;
+    }
+  }
+  
+  
+  .girl{
+    width: 190%;
+    height: auto;
+margin-top: 150px;
+
+
+    z-index: -1;
+position:absolute;
+}
+
+
+.grup1{
+    width: 87px;
+    height: 523px;
+    left:0px;
+    top: 50px;
+position:absolute;
+z-index: 1;
+}
+
+.japan{
+    width: 350px;
+height: 350px;
+margin-top: 0px;
+left: 0px;
+position: absolute;
+}
+
+
+.japan2{
+    width: 411px;
+    height: 204px;
+    top: 35px;
+    left: 0px;
+    
+position:absolute;
+}
+
+.grup2{
+    width: 281.36px;
+height: 53.67px;
+top: 75px;
+
+position:absolute;
+
+}
+
+
+.japan3{
+    width: 446px;
+    height: 357px;
+    top: -8px;
+    right: 0px;
+
+    
+position:absolute;
+}
+
+.grup3{
+    width: 236px;
+    height: 404px;
+    top: 240px;
+    
+    
+
+position:absolute;
+right: 0px;
+}
+
+.grad{
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(180deg, transparent 0%, #181A20 60%);
+  position: absolute;
+  margin-top: 600px;
+}
+
